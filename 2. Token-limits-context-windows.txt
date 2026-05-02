@@ -1,0 +1,16 @@
+# Token Limits and context windows
+ 
+ - Token are roughly .75 words, but not always. Check here - https://platform.openai.com/tokenizer
+ - Cumulative tokens = input + output history (During a chat)
+ - Context window - maximum tokens the model can remember
+ - When you hit limits, oldest context drops off silently
+
+
+# System Message
+ 
+  - The invisible "personality" behind every AI interaction
+  - Set by the provider (OpenAI, Anthropic, GitHub, Cursor, etc.)
+  - Takes up part of your context window
+  - Why the same model acts differently in different tools
+  - Like in coding tool - you are friendly coding assistant. 
+    For support - you are support agent for xyz company
