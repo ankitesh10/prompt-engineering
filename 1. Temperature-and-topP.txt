@@ -1,0 +1,14 @@
+# Temparature
+
+- Controls randomness
+- 0 = deterministic, 2 = chaotic
+- Lower is better for factual tasks, code, data extraction
+- Hihger is better for creative writing, brainstroming, varied solutions
+- Analogy: You’re choosing your next word in a sentence like picking a dish at a buffet.
+
+
+# Top P, possible value 0 to 1. like .2, .8 etc.
+
+- Alternative to temperature
+- Cumulative probability cutoff
+- Analogy: Same buffet, but now you say: “Only show me dishes that together form at least X% of people’s choices.”
