@@ -14,3 +14,5 @@
   - Why the same model acts differently in different tools
   - Like in coding tool - you are friendly coding assistant. 
     For support - you are support agent for xyz company
+  - System message can be jailbreaked, so no secret here. 
+    You can only set system message if you are using APIs.
