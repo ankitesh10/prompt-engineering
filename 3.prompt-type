@@ -1,0 +1,46 @@
+# Zero shot Prompt
+  - Zero-shot prompting means we are asking the model to do something without providing any examples of the task. 
+  - We are relying on the model's training data to help us figure out what we want.
+  - An example of a zero-shot prompt:
+
+      // Classify the customer rating into neutral, negative or positive.
+      // Text: The product was okay. It worked, but wasn't the easiest to understand how to use.
+      // Sentiment:
+
+
+# Standard Prompt
+ - Standard prompts are just asking direct questions or giving direct instructions to your AI assistant.
+ - e.g. "Explain to me why thunder is so scary".
+ - Standart prompt can have example
+ - Standard prompt is zero shot prompt with example
+ - All zero-shot prompts are standard prompts, but not all standard prompts are truly zero-shot.
+
+ 
+   Create a prompt library application that lets users save and delete prompts.
+
+   Users should be able to:
+   - Enter a title and content for their prompt
+   - Save it to localStorage
+   - See all their saved prompts displayed on the page
+   - Delete prompts they no longer need
+
+Make it look clean and professional with HTML, CSS, and JavaScript.
+
+
+
+# One shot Prompt
+
+  - Another common prompting technique is called one-shot, which really simply means providing one example.
+  - So we had zero-shot (zero examples) and now one-shot (one example).
+  - This technique really leverages the model's ability to generalize from minimal data. 
+  - Simple patterns are great for one shot prompts, where one example clearly shows what we are looking for.
+  - An example of a one-shot prompt:
+    Write an engaging introduction for a blog post about remote work productivity.
+    Example:
+    Topic: Benefits of morning exercise
+    Introduction: "Picture this: It's 6 AM, your alarm goes off, and instead of hitting snooze, you lace up your sneakers. 
+    Sound impossible? Here's the thing—those who exercise before breakfast report 23% higher energy levels throughout 
+    their workday. But the real secret isn't just the exercise itself; it's what happens to your brain chemistry in 
+    those precious morning hours."
+    Now write an introduction for: Remote work productivity tips
+
