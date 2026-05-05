@@ -7,3 +7,5 @@
     - Model have Primacy bias and Recency bias
     - Primacy bias (or the primacy effect) is a cognitive bias where individuals 
       recall and prioritize information presented first over subsequent information.
+    - Reasearch show middle stuggle starts happening around 2000 tokens
+    - You can't always control where your message goes, as API application also add system prompts and developement prompts.
