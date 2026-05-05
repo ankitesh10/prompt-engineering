@@ -1,0 +1,9 @@
+# Context placement
+    - Where context is placed in prompts is important
+    - Beginning > End > Middle for information retention
+    - Models struggle with the middle of long contexts
+    - Critical info should go first, supporting details last
+    - Article - https://arxiv.org/abs/2307.03172
+    - Model have Primacy bias and Recency bias
+    - Primacy bias (or the primacy effect) is a cognitive bias where individuals 
+      recall and prioritize information presented first over subsequent information.
