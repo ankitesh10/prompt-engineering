@@ -1,0 +1,19 @@
+# Strucutured Output
+    - Get consistenet formats every time
+    - Tell the model exactly how you want information
+    - Use examples, templates, or schemas to enforce format
+    - test cases, documentation, data extraction, code generation
+    - Example
+        Extract the meeting details from this email.
+
+        Format like this:
+        Date: [date]
+        Time: [time]
+        Location: [location]
+        Topic: [topic]
+
+        Email: "Let's meet tomorrow at 2 PM in Conference Room B to discuss the Q4 budget."
+    - Example
+        Convert this error into JSON. Return ONLY the JSON, no explanation.
+
+        "Error 404 occurred at 3:45 PM when trying to access /users/profile endpoint"
