@@ -1,0 +1,5 @@
+- Check the image attached, darker the highlight more attention is paid on that word.
+- As you can see emotional prompt can make llm pay more attention to your key words,
+  which theoritcally should improve the output.
+- Research paper - https://arxiv.org/abs/2307.11760
+- This technique still bit conterversial. 
